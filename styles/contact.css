@@ -1,0 +1,10 @@
+.icon:hover{
+    animation: icon_anim .5s;
+}
+
+@keyframes icon_anim {
+    20% { transform: rotate(10deg)}
+    40% { transform: rotate(-20deg)}
+    60% { transform: rotate(20deg)}
+    80% { transform: rotate(-30deg)}
+}

@@ -1,0 +1,50 @@
+.header{
+    height: 100%;
+     background-color: #ffffff; /* For browsers that do not support gradients */
+   background-image: linear-gradient(to bottom right, #f1f0f0, white); /* Standard syntax (must be last) */
+ }
+ 
+ .hi-msg{
+   display: flex;
+   justify-self: flex-start;
+   padding-top: 20%;font-size: 5rem;font-family: headerFont;
+ }
+ 
+.introduction{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+ }
+ 
+
+.intro-img{
+   display: block;
+  float: right;
+   height: auto;
+   width: 70%;
+   margin-top: 40%;
+   margin-left: 20%;
+ }
+
+
+ .typewrite > .wrap {   
+    border-right: 0.08em solid rgb(240, 157, 63); 
+    font-family: headerFont;
+    color: #3D9EB5;
+  }
+
+
+
+  /* On screens that are 600px or less (phones)*/
+@media screen and (max-width: 500px) {
+
+  .introduction{
+    flex-direction: column;
+  }
+  .hi-msg{
+    justify-self: center;
+  }
+  .intro-img{
+ display: none;
+  }
+}

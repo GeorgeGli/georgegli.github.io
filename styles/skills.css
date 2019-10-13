@@ -1,0 +1,86 @@
+.skills{
+    background-color: #f1f0f0;
+    
+  }
+.skills-head{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -10%;
+}
+.sk{
+  margin-bottom: 4rem;
+}
+
+
+.skills-idiv{
+ text-align: right;
+  }
+
+.skills-img{
+    margin-top: -12rem;
+     }
+
+.skills_cmp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgba(46,41,78,.15);
+    border-radius: 5px;
+    height: 20rem;
+    width: 30rem;
+    background-color: #ffffff;
+    margin: 2rem;
+    font-family: "Font Awesome 5 Pro";
+}
+
+.skills_cmp:hover{
+  -webkit-animation:anim .2s;
+  animation: anim .2s;
+}
+
+@keyframes anim {
+  to { transform: translateY(-0.2rem);}
+}
+
+@-webkit-keyframes anim {
+  to { transform: translateY(-0.5rem);}
+}
+
+.icons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+
+.skill-par{
+  margin: 1rem;
+  text-align: left;
+}
+
+.icon-img{
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem;
+}
+
+
+
+/* On screens that are 600px or less (phones)*/
+@media screen and (max-width: 680px) {
+
+  .skills-head {
+      flex-direction: column;
+      justify-content: center;
+    }
+  .skills-img{
+    display: none;
+    width:50%;
+    justify-content: center;
+  }
+
+
+
+}
