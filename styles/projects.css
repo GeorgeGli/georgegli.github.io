@@ -66,14 +66,14 @@
     display: flex;
     flex-wrap: wrap; 
     height: 2.5rem; 
-    font-family: "Font Awesome 5 Pro";
+    font-family: "Times New Roman", Times, serif;
   }
 
 .project-par{
     height: 12rem;
     margin: 1rem;
   text-align: left;
-  font-family: "Font Awesome 5 Pro";
+  font-family: "Times New Roman", Times, serif;
   }
 
 .proj-code{
