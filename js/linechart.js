@@ -38,7 +38,7 @@ var myChart = new Chart(ctx, {
       }
     },
     data: {
-      labels: ['Birth', 'School','ECCE', 'TUC', ' Bio-engineering course', 'AFDEMP', 'Greek Military'],
+      labels: ['Birth', 'School','ECCE', 'TUC', ' Bio-engineering Course', 'AFDEMP', 'Military Services'],
     datasets: [{
       data: [1991, 2000, 2007, 2009, 2015, 2016, 2019],
       tension: 0.0,
